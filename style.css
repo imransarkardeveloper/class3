@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form-section{
+    width: 100%;
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box{
+    width: 80%;
+    background:white;
+    display: flex;
+    padding: 25px;
+    height: 80vh;
+}
+.img-part{
+    flex-basis: 50%;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.img-part img{
+    flex-basis: 50%;
+    width: 55%;
+    height: auto;
+}
+.form-part{
+    margin-left: 5px;
+
+}
+.form-part h1{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+form .name{
+    width: 100%;
+}
+form .name input{
+    width: 50%;
+    margin-right: 100px;
+    
+}
+input{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+}
+input::placeholder{
+    font-size: 15px;
+}
+input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 0px solid none;
+    margin: 10px 0px;
+
+}
+select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    margin: 15px 0px;
+}
+element.style {
+    background: gainsboro;
+}
+.btn{
+    text-align: right;
+}
+
+button{
+background: #333333;
+padding: 12px 30px;
+font-size: 15px;
+font-family: poppins;
+color: wheat;
+border: 1px solid #333333;
+}
+
